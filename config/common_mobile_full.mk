@@ -31,10 +31,24 @@ PRODUCT_PACKAGES += \
     zstd
 
 # Fonts
+PRODUCT_COPY_FILES += \
+    vendor/lineage/fonts/GoogleSans-Italic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/GoogleSans-Italic.ttf \
+    vendor/lineage/fonts/GoogleSans-Regular.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/GoogleSans-Regular.ttf \
+    vendor/lineage/fonts/GoogleSansClock-Regular.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/GoogleSansClock-Regular.ttf \
+    vendor/lineage/fonts/HarmonyOS-Sans.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/HarmonyOS-Sans.ttf \
+    vendor/lineage/fonts/HarmonyOS-Sans-Italic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/HarmonyOS-Sans-Italic.ttf \
+    vendor/lineage/fonts/Inter-VF.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Inter-VF.ttf \
+    vendor/lineage/fonts/OppoSans-En-Regular.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/OppoSans-En-Regular.ttf
+
 PRODUCT_PACKAGES += \
     fonts_customization.xml \
     FontLatoOverlay \
-    FontRubikOverlay
+    FontRubikOverlay \
+    FontGoogleSansOverlay \
+    FontGoogleSansLatoOverlay \
+    FontInterOverlay \
+    FontHarmonySansOverlay \
+    FontOppoSansOverlay
 
 # Include Lineage LatinIME dictionaries
 PRODUCT_PACKAGE_OVERLAYS += vendor/lineage/overlay/dictionaries
