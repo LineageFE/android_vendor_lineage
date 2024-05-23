@@ -38,7 +38,13 @@ PRODUCT_COPY_FILES += \
     vendor/lineage/fonts/HarmonyOS-Sans.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/HarmonyOS-Sans.ttf \
     vendor/lineage/fonts/HarmonyOS-Sans-Italic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/HarmonyOS-Sans-Italic.ttf \
     vendor/lineage/fonts/Inter-VF.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Inter-VF.ttf \
-    vendor/lineage/fonts/OppoSans-En-Regular.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/OppoSans-En-Regular.ttf
+    vendor/lineage/fonts/OppoSans-En-Regular.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/OppoSans-En-Regular.ttf \
+    vendor/lineage/fonts/FluidSans-Bold.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/FluidSans-Bold.ttf \
+    vendor/lineage/fonts/FluidSans-BoldItalic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/FluidSans-BoldItalic.ttf \
+    vendor/lineage/fonts/FluidSans-Italic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/FluidSans-Italic.ttf \
+    vendor/lineage/fonts/FluidSans-Medium.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/FluidSans-Medium.ttf \
+    vendor/lineage/fonts/FluidSans-MediumItalic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/FluidSans-MediumItalic.ttf \
+    vendor/lineage/fonts/FluidSans-Regular.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/FluidSans-Regular.ttf
 
 PRODUCT_PACKAGES += \
     fonts_customization.xml \
@@ -48,7 +54,8 @@ PRODUCT_PACKAGES += \
     FontGoogleSansLatoOverlay \
     FontInterOverlay \
     FontHarmonySansOverlay \
-    FontOppoSansOverlay
+    FontOppoSansOverlay \
+    FontFluidSansOverlay
 
 # Clocks
 PRODUCT_PACKAGES += \
